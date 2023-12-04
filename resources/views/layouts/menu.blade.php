@@ -88,6 +88,13 @@
                                         </ul>
                                     </li>
 
+                                    <li>
+                                        <a href="#"
+                                            style="color: black; text-shadow: 5px 5px 5px #535552; font-size: 13px;">
+                                            Company Profile
+                                        </a>
+                                    </li>
+
 
                                     <li class="dropdown">
                                         <a href="#"

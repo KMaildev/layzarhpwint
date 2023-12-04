@@ -1,6 +1,25 @@
 @extends('layouts.main')
 @section('title', 'Contact Us')
 @section('content')
+
+    <section class="inner-banner">
+        <div class="banner-curve"></div>
+        <div class="auto-container">
+            <div class="inner">
+                <div class="theme-icon"></div>
+                <div class="title-box">
+                    <h1>
+                        Contact Us
+                    </h1>
+                    <div class="d-text">
+                        If you have any queries, our team is ready to response all your queries.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
     <section class="contact-section-two">
         <div class="auto-container">
             <div class="upper-row">
@@ -188,7 +207,7 @@
         </div>
     </section>
 
-    
+
 
 @endsection
 @section('script')

@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('title', 'Jobs')
 @section('content')
-
+    
     <section class="inner-banner alternate">
         <div class="image-layer" style="background-image: url({{ asset('data/activities.png') }});">
         </div>
