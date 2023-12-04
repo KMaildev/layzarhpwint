@@ -10,9 +10,17 @@
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <meta name="keywords" content="Lay Zar Pwint Family Co.,Ltd" />
+    <meta name="author" content="Lay Zar Pwint Family Co.,Ltd" />
+    <meta name="robots" content="Lay Zar Pwint Family Co.,Ltd" />
+    <meta name="description" content="Lay Zar Pwint Family Co.,Ltd" />
+    <link rel="shortcut icon" href="{{ asset('data/company/logo.jpg') }}" />
+    <meta property="og:image" content="{{ asset('data/company/logo.jpg') }}" />
+
 </head>
 
 <body>

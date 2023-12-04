@@ -30,121 +30,148 @@
 <footer class="main-footer">
     <div class="top-pattern-layer-dark"></div>
 
-    <!--Widgets Section-->
     <div class="widgets-section">
-        <div class="auto-container">
+        <div class="auto-container" style="padding-left: 50px; padding-right: 50px;">
             <div class="row clearfix">
+                <div class="footer-widget links-widget">
+                    <div class="widget-content">
+                        <div class="row clearfix">
 
-                <!--Column-->
-                <div class="column col-xl-3 col-lg-12 col-md-12 col-sm-12">
-                    <div class="footer-widget about-widget">
-                        <div class="logo">
-                            <a href="#"><img src="{{ asset('assets/images/footer-logo.png') }}"
-                                    alt=""></a>
-                        </div>
-                        <div class="text">Amet consectetur adipisicing elitm ipsum sed incididunt labore
-                            dolore magna.</div>
-                        <div class="info">
-                            <ul>
-                                <li>47 Wood Circle, Pana City FL 32401</li>
-                                <li>Call us <a href="tel:(+1)-500.369.2580"><strong>(+1)
-                                            500.369.2580</strong></a></li>
-                                <li><a href="mailto:support@zentec.com">support@zentec.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Column-->
-                <div class="column col-xl-9 col-lg-12 col-md-12 col-sm-12">
-                    <div class="footer-widget links-widget">
-                        <div class="widget-content">
-                            <div class="row clearfix">
-                                <div class="col-lg-8 col-md-12 col-sm-12">
-                                    <div class="row clearfix">
-                                        <div class="column col-lg-4 col-md-4 col-sm-12">
-                                            <div class="widget-title">
-                                                <h4>What We Do</h4>
-                                            </div>
-                                            <ul class="links">
-                                                <li><a href="#">Cloud Integration</a></li>
-                                                <li><a href="#">Business Security</a></li>
-                                                <li><a href="#">Startup Projects</a></li>
-                                                <li><a href="#">Product Engineering</a></li>
-                                                <li><a href="#">Data Infrastructure</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column col-lg-4 col-md-4 col-sm-12">
-                                            <div class="widget-title">
-                                                <h4>About Us</h4>
-                                            </div>
-                                            <ul class="links">
-                                                <li><a href="#">Who We Are</a></li>
-                                                <li><a href="#">Case Studies</a></li>
-                                                <li><a href="#">Career Opportunities</a></li>
-                                                <li><a href="#">Our Clients</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column col-lg-4 col-md-4 col-sm-12">
-                                            <div class="widget-title">
-                                                <h4>Support</h4>
-                                            </div>
-                                            <ul class="links">
-                                                <li><a href="#">View Help Topics</a></li>
-                                                <li><a href="#">Latest Articles</a></li>
-                                                <li><a href="#">Technology Consulting</a></li>
-                                                <li><a href="#">Terms Of Service</a></li>
-                                                <li><a href="#">Contact Us</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="column col-lg-4 col-md-12 col-sm-12">
-                                    <div class="widget-title empty-title">
-                                        <h4>Get In Touch</h4>
-                                    </div>
-                                    <!--Newsletter-->
-                                    <div class="newsletter-form">
-                                        <form method="post" action="https://t.commonsupport.xyz/zentec/contact.html">
-                                            <div class="form-group clearfix">
-                                                <input type="email" name="email" value=""
-                                                    placeholder="Email address" required>
-                                                <button type="submit" class="theme-btn newsletter-btn"><span
-                                                        class="icon fa fa-paper-plane"></span></button>
-                                            </div>
-                                        </form>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="footer-widget about-widget">
+                                    <div class="logo">
+                                        <a href="#">
+                                            <img src="{{ asset('data/company/logo.jpg') }}" alt=""
+                                                style="width: 50%;">
+                                        </a>
                                     </div>
 
-                                    <div class="social-links">
-                                        <div class="title text">Get the latest news & updates</div>
-                                        <ul class="clearfix">
-                                            <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-twitter"></span></a>
+                                    <div class="text">
+                                        We are one of the best overseas employment agency in myanmar.
+                                    </div>
+
+                                    <div class="info">
+                                        <ul>
+                                            <li>
+                                                No.(401/A), Cherry Street, (72) Quarter, (South) Dagon Myothit Township,
+                                                Yangon Region, Myanmar
                                             </li>
-                                            <li><a href="#"><span class="fab fa-instagram"></span></a>
+                                            <li>
+                                                <a href="tel:09-976982458">
+                                                    <strong>
+                                                        09-976982458
+                                                    </strong>
+                                                </a>
+                                                <br>
+                                                <a href="tel:09-798412188">
+                                                    <strong>
+                                                        09-798412188
+                                                    </strong>
+                                                </a>
+                                                <br>
+                                                <a href="tel:09-945446444">
+                                                    <strong>
+                                                        09-945446444
+                                                    </strong>
+                                                </a>
                                             </li>
-                                            <li><a href="#"><span class="fab fa-youtube"></span></a>
+
+                                            <li>
+                                                <a
+                                                    href="mailto:layzarpwintfamily@gmail.com">layzarpwintfamily@gmail.com</a>
                                             </li>
-                                            <li><a href="#"><span class="fab fa-pinterest"></span></a>
+
+                                            <li>
+                                                <a href="mailto:info@layzarpwintfamily">info@layzarpwintfamily.com</a>
                                             </li>
+
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="column col-lg-3 col-md-3 col-sm-12">
+                                <div class="widget-title">
+                                    <h4>What We Do</h4>
+                                </div>
+                                <ul class="links">
+                                    <li>
+                                        <a href="{{ route('about.index') }}">
+                                            Our Company
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('ceo_message') }}">
+                                            President's Message
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('team') }}">
+                                            Professional Team
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="column col-lg-3 col-md-3 col-sm-12">
+                                <div class="widget-title">
+                                    <h4>
+                                        Manpower Services
+                                    </h4>
+                                </div>
+                                <ul class="links">
+                                    @foreach ($countries as $country)
+                                        <li>
+                                            <a href="{{ route('job.show', $country->id) }}">
+                                                {{ $country->country ?? '' }}
+                                            </a>
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            </div>
+
+                            <div class="column col-lg-3 col-md-3 col-sm-12">
+                                <div class="widget-title">
+                                    <h4>Support</h4>
+                                </div>
+                                <ul class="links">
+                                    <div id="fb-root"></div>
+                                    <script async defer crossorigin="anonymous"
+                                        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=210045094312905&autoLogAppEvents=1"
+                                        nonce="PosYNXjc"></script>
+
+                                    <div class="fb-page" data-href="https://www.facebook.com/layzarpwintfamily"
+                                        data-tabs="timeline" data-width="" data-height="200" data-small-header="false"
+                                        data-adapt-container-width="true" data-hide-cover="false"
+                                        data-show-facepile="true">
+                                        <blockquote cite="https://www.facebook.com/layzarpwintfamily"
+                                            class="fb-xfbml-parse-ignore">
+                                            <a href="https://www.facebook.com/layzarpwintfamily">
+                                                Facebook
+                                            </a>
+                                        </blockquote>
+                                    </div>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
-    <!-- Footer Bottom -->
-    <div class="footer-bottom">
+    <div class="footer-bottom" style="background-color: #FEF200;">
         <div class="auto-container">
             <div class="inner">
-                <div class="copyright">&copy; 2020 <strong>ZenTec IT Solutions</strong>. All rights reserved.
-                    <a href="#">Privacy Policy</a>
+                <div class="copyright">
+                    &copy; {{ now()->year }}
+                    <strong>
+                        Lay Zar Pwint Family Co.,Ltd
+                    </strong>
+                    . All rights reserved.
                 </div>
             </div>
         </div>

@@ -12,17 +12,19 @@
                     <div class="info">
                         <ul class="clearfix">
                             <li class="phone">
-                                <a href="tel:500.369.2580">
+                                <a href="tel:09-976982458">
                                     <span class="icon sl-icon-call-in"></span>
                                     Phone
-                                    <strong>500.369.2580</strong>
+                                    <strong>
+                                        09-976982458
+                                    </strong>
                                 </a>
                             </li>
                             <li class="email">
-                                <a href="mailto:info@zentec.com">
+                                <a href="mailto:layzarpwintfamily@gmail.com">
                                     <span class="icon sl-icon-envelope-open">
                                     </span>
-                                    info@zentec.com
+                                    layzarpwintfamily@gmail.com
                                 </a>
                             </li>
                         </ul>
@@ -32,26 +34,28 @@
         </div>
     </div>
 
+
     <div class="header-upper" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
         <div class="auto-container">
             <div class="inner-container clearfix">
-                <div class="logo-box">
-                    <div class="logo">
-                        <a href="{{ route('home') }}" title="Zentec - Business and Consulting HTML Template">
-                            <img src="{{ asset('data/company/logo.jpg') }}"
-                                alt="Zentec - Business and Consulting HTML Template"
-                                title="Zentec - Business and Consulting HTML Template">
+                <div class="">
+                    <div class="">
+                        <a href="{{ route('home') }}" title="Lay Zar Pwint Family Co.,Ltd">
+                            <img src="{{ asset('data/company/weblogo.png') }}" alt="Lay Zar Pwint Family Co.,Ltd"
+                                title="Lay Zar Pwint Family Co.,Ltd" style="width: 500px;">
                         </a>
                     </div>
                 </div>
-                <div class="right-nav clearfix">
+
+                {{-- right-nav  --}}
+                <div class="clearfix">
                     <div class="nav-outer clearfix">
                         <div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
 
-                                    <li class="current">
+                                    <li>
                                         <a href="{{ route('home') }}"
                                             style="color: black; text-shadow: 5px 5px 5px #535552; font-size: 13px;">
                                             Home
@@ -149,15 +153,13 @@
 
     <div class="sticky-header">
         <div class="auto-container clearfix">
-            <!--Logo-->
             <div class="logo pull-left">
                 <a href="{{ route('home') }}" title="">
-                    <img src="{{ asset('assets/images/sticky-logo.png') }}" alt="" title="">
+                    <img src="{{ asset('data/company/logo.jpg') }}" alt="" title="" style="width: 90px;">
                 </a>
             </div>
             <div class="pull-right">
                 <nav class="main-menu clearfix">
-                    <!--Keep This Empty / Menu will come through Javascript-->
                 </nav>
             </div>
         </div>
@@ -171,7 +173,7 @@
         <nav class="menu-box">
             <div class="nav-logo">
                 <a href="{{ route('home') }}">
-                    <img src="{{ asset('assets/images/nav-logo.png') }}" alt="" title="">
+                    <img src="{{ asset('data/company/logo.jpg') }}" alt="" title="">
                 </a>
             </div>
             <div class="menu-outer">

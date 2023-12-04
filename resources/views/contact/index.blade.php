@@ -172,7 +172,8 @@
                                 <div class="text-content">
                                     <div class="info">
                                         <ul>
-                                            <li><a
+                                            <li>
+                                                <a
                                                     href="mailto:layzarpwintfamily@gmail.com">layzarpwintfamily@gmail.com</a>
                                             </li>
                                             <li><a href="mailto:info@layzarpwintfamily">info@layzarpwintfamily.com</a></li>
